@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ <html>
+        <head>
+     <!-- hier zet je de code in de head tags -->
+     <link rel="stylesheet" href="styles.css">
+          <title> Over mij </title>
+        </head>
+        <body>
+          <header>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Nieuws">Nieuws</a></li>
+                <li class="dropmenu">
+                  <a href="javascript:void(0)" class="dropbtn">Informatie</a>
+                    <div class="menucontent">
+                      <a href="about.html">Over mij</a>
+                      <a href="contact.html">Contact</a>
+                      <a href="#">Informatie</a>
+                    </div>
+                </li>
+              </ul>
+            </nav>
+          <h1>Contact</h1>
+        </header>
+            <h2>Uw vraag.</h2>
+          <form name="contact" method="POST" data-netlify="true">
+            <label for="vname">voornaam:</label><br>
+            <input type="text" id="vname" name="voornaam" placeholder="voornaam"/>
+            <br><br>
+            <label for="aname">Achternaam:</label><br>
+            <input type="text" id="aname" name="achternaam" placeholder="Achternaam"/>
+            <br><br>
+            <label> Bericht: </label><br>
+            <textarea bericht="bericht" rows="5" cols="40"></textarea><br><br><br>
+            <input type="submit" value="Verzend"><br><br><br><br><br><br>
+
+          </form>
+
+          <!-- hier zet je de code in de body tags-->
+        </body>
+        <footer>
+          <p>- copyright: pja -</p>
+
+        </footer>
+ </html>
